@@ -30,6 +30,7 @@ body {
     height: auto;
 }
 .menu-top-site {
+    display: flex;
     margin-bottom: 3px;
     font-weight: 500;
 }
@@ -44,11 +45,11 @@ body {
 }
 .menu-top-site .primary-link {
     color: #0065FC;
-    padding: 40px 32px 32px 32px;
+    padding: 37px 32px 32px 32px;
     border-top: 3px solid #0065FC;
 }
 .menu-top-site .link {
-    padding: 40px 32px 32px 32px;
+    padding: 37px 32px 32px 32px;
     border-top: 3px solid white;
 }
 .menu-top-site .link:hover {
@@ -58,6 +59,7 @@ body {
 .nav-top-right {
     display: flex;
     margin-right: 30px;
+    align-items: center;
 }
 
 /* Footer CSS */
