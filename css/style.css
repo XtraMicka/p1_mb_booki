@@ -44,7 +44,7 @@ body {
     text-decoration: none;
 }
 .menu-top-site .primary-link {
-    color: #0065FC;
+    color: var(--blue);
     padding: 37px 32px 32px 32px;
     border-top: 3px solid #0065FC;
 }
@@ -53,8 +53,8 @@ body {
     border-top: 3px solid white;
 }
 .menu-top-site .link:hover {
-    border-top: 3px solid #0065FC;
-    color: #0065FC;
+    border-top: 3px solid var(--blue);
+    color: var(--blue);
 }
 .nav-top-right {
     display: flex;
@@ -66,7 +66,7 @@ body {
 .footer {
     display: flex;
     justify-content: stretch;
-    background-color: #F2F2F2;
+    background-color: var(--grey);
     flex-direction: row;
     margin-top: 32px;
 }
@@ -117,7 +117,7 @@ body {
     margin: 20px 32px 0 32px;
 }
 .location i {
-    background-color: #F2F2F2;
+    background-color: var(--grey);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,15 +187,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0065FC;
-    background-color: #DEEBFF;
+    color: var(--blue);
+    background-color: var(--cyan);
     height: 50px;
     width: 50px;
     border-radius: 100%;
     margin: 0 17px 0 0;
 }
 .filters li:hover {
-    background-color: #DEEBFF;
+    background-color: var(--cyan);
 }
 /* Partie MINI-PHRASE*/
 .top-site .mini-para {
@@ -477,6 +477,7 @@ body {
     height: 100%;
 }
 
+/* Rendement plus beau de la box droite du milieu du site */
 @media screen and (max-width: 1460px) {
     .mid-site {
         flex-direction: column-reverse;
