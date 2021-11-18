@@ -1,0 +1,246 @@
+#bloc-page {
+    min-width: 768px;
+}
+.header {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.logo {
+    font-size: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.logo img {
+    max-width: 100%;
+}
+.menu-top-site {
+    display: flex;
+    width: 100%;
+}
+.nav-top-right, .nav1-top, .nav2-top, .header ul {
+    flex: 1;
+    padding: inherit;
+    margin: inherit;
+}
+.nav-top-right li {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+.nav-top-right a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-top-site .primary-link {
+    color: #0065FC;
+    padding: inherit;
+    border-bottom: 5px solid #0065FC;
+    border-top: 0;
+    flex: 1;
+}
+.menu-top-site .link {
+    padding: inherit;
+    border-bottom: 5px solid var(--grey);
+    border-top: 0;
+    flex: 1;
+}
+.menu-top-site .link:hover{
+    border-top: 0px;
+    border-bottom: 5px solid #0065FC;
+}
+.main {
+    margin: inherit;
+    margin-top: 20px;
+}
+.top-site .part-1 h1 {
+    font-size: 45px;
+}
+.top-site .part-1 p {
+    font-size: 31px;
+    margin-top: 25px;
+}
+.button .button-pc {
+    display: none;
+}
+.search-bar {
+    flex: 1;
+    margin-top: 50px;
+    height: 90px;
+}
+.search-bar .location, .search-bar .button-phone{
+    flex: 1;
+    min-height: 90px;
+    min-width: 90px;
+    height: 100%;
+    width: 100%;
+    display: inherit;
+}
+.search-bar .search-box {
+    flex: 6;
+}
+.location i {
+    width: inherit;
+    height: 90px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 33px;
+}
+.search-box input {
+    height: 90px;
+    width: 105%;
+    font-size: 34px;
+    padding: 5px 10px 5px 40px;
+}
+.search-bar button {
+    flex: 1;
+    min-height: 90px;
+    min-width: 90px;
+    height: 100%;
+    width: 100%;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #0065FC;
+}
+.search-bar button i {
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+}
+.filters {
+    flex-direction: column;
+}
+.filters p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.filters ul {
+    padding: 0;
+}
+.filters li {
+    margin-left: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    font-size: 30px;
+    border-radius: 40px;
+}
+.filters i {
+    width: 75px;
+    height: 75px;
+}
+.top-site .mini-para {
+    font-size: 30px;
+    align-items: baseline;
+}
+.top-site .mini-para i {
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+.accroche {
+    margin-left: 60px;
+    margin-top: 9px;
+}
+.mid-site {
+    margin: 0;
+}
+.right-box {
+    border-radius: 0;
+    margin: 0;
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+.popular {
+    font-size: 30px;
+}
+.right-box h1 {
+    font-size: 40px;
+}
+.popular .graph {
+    font-size: 40px;
+}
+.linebox {
+    min-height: 255px;
+    min-width: 500px;
+    margin-bottom: 10px;
+}
+.linebox .infos {
+    padding-right: 15px;
+}
+.linebox .rate {
+    font-size: 20px;
+}
+.linebox img {
+    max-width: 39%;
+    margin-right: 20px;
+}
+.linebox h3 {
+    font-size: 29px;
+    margin: 30px 0 0 0;
+    font-weight: 800;
+}
+.linebox p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.left-box {
+    background-color: inherit;
+}
+.left-box h1 {
+    font-size: 40px;
+}
+.minibox {
+    min-width: 500px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+.minibox img {
+    height: 100%;
+    max-height: 220px;
+}
+.minibox h3 {
+    font-size: 30px;
+}
+.minibox p {
+    font-size: 26px;
+}
+.minibox .rate {
+    font-size: 20px;
+}
+.more {
+    margin-top: 40px;
+    font-size: 33px;
+}
+.bot-site h1 {
+    font-size: 40px;
+}
+.bot-site h3 {
+    font-size: 30px;
+    margin: 35px 0 0 30px;
+}
+.botmini {
+    min-height: 340px;
+    min-width: 500px;
+}
+.bot-site img {
+    min-height: 240px;
+}
+.box-2 .haut, .box-2 .bas, .box-4 .haut, .box-4 .bas {
+    min-height: 340px;
+    min-width: 500px;
+}
+.footer {
+    padding-bottom: 30px;
+}
+.footer h3 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+.footer a {
+    font-size: 25px;
+}

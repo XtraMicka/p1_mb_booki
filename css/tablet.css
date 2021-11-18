@@ -1,0 +1,39 @@
+#bloc-page {
+    min-width: 992px;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.filters {
+    padding: 0 10px 0 10px;
+    margin: 20px 20px 20px 20px;
+}
+.mid-site {
+    flex-direction: column-reverse;
+
+}
+.mid-site .left-box {
+    margin: 0px 0 0 0;
+}
+.mid-site .grille-box1 {
+    justify-content: space-evenly;
+}
+.mid-site .line-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botmini {
+    height: 250px;
+}
+.footer {
+    margin-top: inherit;
+    flex-direction: column;
+}
+.footer-part-1, .footer-part-2, .footer-part-3 {
+    margin: 16px 16px 16px 32px;
+    padding-right: 160px;
+}
