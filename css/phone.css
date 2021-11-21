@@ -1,4 +1,6 @@
 #bloc-page {
+    margin: auto;
+    width: auto;
     min-width: 400px;
 }
 .header {

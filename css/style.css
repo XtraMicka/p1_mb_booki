@@ -9,6 +9,11 @@ body {
     color: black;
     font-family: Raleway, sans-serif;
 }
+#bloc-page {
+    margin: auto;
+    width: auto;
+    min-width: 400px;
+}
 :root {
     --grey: #F2F2F2;
     --blue: #0065FC;
