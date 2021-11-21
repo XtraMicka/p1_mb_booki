@@ -1,5 +1,6 @@
 #bloc-page {
-    min-width: 992px;
+    width: auto;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
 }

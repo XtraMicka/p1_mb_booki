@@ -1,5 +1,5 @@
 #bloc-page {
-    min-width: 768px;
+    min-width: 400px;
 }
 .header {
     flex-direction: column;
@@ -7,12 +7,11 @@
     margin: 0;
 }
 .logo {
-    font-size: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.logo img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 5% 0 5% 0;
+    justify-content: center;
 }
 .menu-top-site {
     display: flex;
@@ -20,13 +19,13 @@
 }
 .nav-top-right, .nav1-top, .nav2-top, .header ul {
     flex: 1;
-    padding: inherit;
-    margin: inherit;
+    padding: 0;
+    margin: 0;
 }
 .nav-top-right li {
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 600;
     padding: 0 0 20px 0;
 }
@@ -53,97 +52,104 @@
     border-bottom: 5px solid #0065FC;
 }
 .main {
-    margin: inherit;
-    margin-top: 20px;
+    margin: 0;
+}
+.top-site {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .top-site .part-1 h1 {
-    font-size: 45px;
+    margin: 0;
+    font-size: 25px;
 }
 .top-site .part-1 p {
-    font-size: 31px;
-    margin-top: 25px;
+    font-size: 18px;
+    margin: 15px 0 0 0;
 }
 .button .button-pc {
     display: none;
 }
 .search-bar {
     flex: 1;
-    margin-top: 50px;
-    height: 90px;
+    margin: 30px 0 0 0;
+    height: 50px;
 }
 .search-bar .location, .search-bar .button-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
-    min-height: 90px;
-    min-width: 90px;
-    height: 100%;
-    width: 100%;
-    display: inherit;
+    width: 60px;
+    height: 60px;
 }
 .search-bar .search-box {
     flex: 6;
 }
 .location i {
     width: inherit;
-    height: 90px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    font-size: 33px;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px;
 }
 .search-box input {
-    height: 90px;
+    height: 60px;
     width: 105%;
-    font-size: 34px;
-    padding: 5px 10px 5px 40px;
+    font-size: 20px;
+    padding: 5px 10px 5px 20px;
 }
 .search-bar button {
     flex: 1;
-    min-height: 90px;
-    min-width: 90px;
-    height: 100%;
-    width: 100%;
+    height: 60px;
+    width: 60px;
     border-style: none;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: #0065FC;
 }
 .search-bar button i {
-    font-size: 33px;
+    display: flex;
+    font-size: 20px;
     color: white;
     cursor: pointer;
 }
 .filters {
     flex-direction: column;
+    margin: 10px 0 0 0;
+    padding: 0;
 }
 .filters p {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
 }
 .filters ul {
     padding: 0;
+    margin: 0;
 }
 .filters li {
-    margin-left: inherit;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-right: 30px;
-    font-size: 30px;
+    margin: 10px 10px 0 0;
+    padding: 0 10px 0 0;
+    font-size: 18px;
     border-radius: 40px;
 }
 .filters i {
-    width: 75px;
-    height: 75px;
-}
-.top-site .mini-para {
-    font-size: 30px;
-    align-items: baseline;
-}
-.top-site .mini-para i {
-    font-size: 22px;
+    margin: 0 10px 0 0;
     width: 45px;
     height: 45px;
+}
+.top-site .mini-para {
+    font-size: 17px;
+    align-items: baseline;
+    margin: 20px 0 20px 0;
+}
+.top-site .mini-para i {
+    margin-top: 4px;
+    font-size: 14px;
+    width: 26px;
+    height: 26px;
     position: absolute;
 }
 .accroche {
-    margin-left: 60px;
+    margin-left: 31px;
     margin-top: 9px;
 }
 .mid-site {
@@ -155,92 +161,138 @@
     padding-left: 20px; 
     padding-right: 20px;
 }
-.popular {
-    font-size: 30px;
-}
 .right-box h1 {
-    font-size: 40px;
+    font-size: 23px;
+    margin-left: 0;
 }
 .popular .graph {
-    font-size: 40px;
+    font-size: 25px;
+    margin-right: 0;
 }
 .linebox {
-    min-height: 255px;
-    min-width: 500px;
-    margin-bottom: 10px;
+    min-height: inherit;
+    min-width: inherit;
+    height: 150px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-radius: 15px;
+}
+.line-box2 a {
+    width: auto !important;
+    height: 150px !important;
 }
 .linebox .infos {
     padding-right: 15px;
 }
 .linebox .rate {
-    font-size: 20px;
+    margin: 0;
+    padding: 0 10px 15px 15px;
+    font-size: 13px;
 }
 .linebox img {
+    padding: 4px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
     max-width: 39%;
-    margin-right: 20px;
+    margin-right: 0;
 }
 .linebox h3 {
-    font-size: 29px;
-    margin: 30px 0 0 0;
+    font-size: 19px;
+    padding: 15px 10px 10px 15px;
+    margin: 0;
     font-weight: 800;
 }
 .linebox p {
-    font-size: 25px;
-    margin-top: 10px;
+    margin: 0;
+    padding: 5px 10px 10px 15px;
+    font-size: 17px;
 }
 .left-box {
     background-color: inherit;
+    padding: 20px;
 }
 .left-box h1 {
-    font-size: 40px;
+    margin: 20px 0 0 0;
+    font-size: 25px;
 }
 .minibox {
-    min-width: 500px;
-    height: 350px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 230px;
     margin-bottom: 10px;
 }
 .minibox img {
-    height: 100%;
-    max-height: 220px;
+    padding: 5px;
+    height: 65%;
 }
 .minibox h3 {
-    font-size: 30px;
+    font-size: 19px;
+    margin-bottom: 3px;
 }
 .minibox p {
-    font-size: 26px;
+    font-size: 16px;
 }
 .minibox .rate {
-    font-size: 20px;
+    font-size: 13px;
 }
 .more {
-    margin-top: 40px;
-    font-size: 33px;
+    margin: 20px 0 0 0;
+    font-size: 23px;
+}
+.bot-site {
+    padding: 20px;
 }
 .bot-site h1 {
-    font-size: 40px;
+    margin: 20px 0 0 0;
+    font-size: 25px;
 }
 .bot-site h3 {
     font-size: 30px;
     margin: 35px 0 0 30px;
 }
-.botmini {
-    min-height: 340px;
-    min-width: 500px;
-}
 .bot-site img {
-    min-height: 240px;
+    height: 70% !important;
+}
+.botmini {
+    width: 100%;
+    height: 225px;
 }
 .box-2 .haut, .box-2 .bas, .box-4 .haut, .box-4 .bas {
-    min-height: 340px;
-    min-width: 500px;
+    width: 100%;
+    height: 225px;
+    margin: 0 0 25px 0;
+}
+.bot-site a {
+    margin: 0;
+    padding: 0;
+}
+.bot-site h3 {
+    margin: 20px 10px 0 20px;
+    font-size: 20px;
 }
 .footer {
-    padding-bottom: 30px;
+    padding: 30px 0 20px 0;
 }
 .footer h3 {
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    padding:  0;
 }
 .footer a {
-    font-size: 25px;
+    font-size: 20px;
+}
+.footer li {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+.footer ul {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+.footer-part-1, .footer-part-2, .footer-part-3 {
+    margin: 20px;
+    padding: 0;
 }
