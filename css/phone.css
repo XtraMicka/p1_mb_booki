@@ -35,20 +35,14 @@
     align-items: center;
     justify-content: center;
 }
-.menu-top-site .primary-link {
-    color: #0065FC;
-    padding: inherit;
-    border-bottom: 5px solid #0065FC;
-    border-top: 0;
-    flex: 1;
-}
-.menu-top-site .link {
+
+.menu-top-site .link, .primary-link {
     padding: inherit;
     border-bottom: 5px solid var(--grey);
     border-top: 0;
     flex: 1;
 }
-.menu-top-site .link:hover{
+.menu-top-site .link:hover, .primary-link:hover {
     border-top: 0px;
     border-bottom: 5px solid #0065FC;
 }
@@ -99,19 +93,23 @@
     font-size: 20px;
     padding: 5px 10px 5px 20px;
 }
-.search-bar button {
-    flex: 1;
-    height: 60px;
+.button {
     width: 60px;
-    border-style: none;
-    border-radius: 15px;
-    background-color: #0065FC;
-}
-.search-bar button i {
+    height: 60px;
     display: flex;
-    font-size: 20px;
-    color: white;
-    cursor: pointer;
+    flex: 1;
+}
+.button .button-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.button i {
+    display: flex;
+}
+.button span {
+    display: none;
 }
 .filters {
     flex-direction: column;
