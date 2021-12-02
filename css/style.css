@@ -173,7 +173,7 @@ body {
     margin-bottom: auto;
 }
 .filters li {
-    margin: 0 10px 0 10px;
+    margin: 5px;
     padding: 0 17px 0 0;
     border: 3px solid #F2F2F2;
     display: flex;
