@@ -51,10 +51,10 @@ body {
 
 .menu-top-site .link, .primary-link {
     padding: 37px 32px 32px 32px;
-    border-top: 3px solid white;
+    border-top: 4px solid white;
 }
 .menu-top-site .link:hover, .primary-link:hover {
-    border-top: 3px solid var(--blue);
+    border-top: 4px solid var(--blue);
     color: var(--blue);
 }
 .nav-top-right {
